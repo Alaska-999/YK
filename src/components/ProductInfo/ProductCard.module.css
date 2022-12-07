@@ -1,0 +1,99 @@
+.productWrapper {
+    background: linear-gradient(#FFD43C, #EABC1B
+    );
+    position: absolute;
+    left: 0;
+    width: 100%;
+}
+
+.productInner {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.productRate {
+    width: 130px;
+    height: 130px;
+    background-color: #fff;
+    border-radius: 100px;
+    font-size: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 4px 2px 4px rgba(0, 0, 0, 0.25);
+    margin: 25px;
+}
+
+.highRate {
+    border: 10px solid #0D9633;
+    color: #0B7127;
+}
+
+.mediumRate {
+    border: 10px solid #d2a822;
+    color: #C39800;
+}
+
+.lowRate {
+    border: 10px solid #D00000;
+    color: #790000;
+}
+
+.productInfo {
+    padding: 20px 20px 15px;
+    background-color: #fff;
+    border: 4px solid #5EA8FF;
+    border-radius: 20px;
+    margin-bottom: 25px;
+}
+
+.productText {
+    border: 4px solid #5EA8FF;
+    border-radius: 20px;
+    padding: 0px 18px;
+}
+
+h1 {
+    font-size: 24px;
+    line-height: 30px;
+    margin: 10px 0 ;
+}
+
+h2 {
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.productImg {
+    width: 310px;
+    border: 4px solid #5EA8FF;
+    border-radius: 20px;
+    margin-top: 15px;
+}
+
+.buttonWrapper {
+    background-color: #5EA8FF;
+    padding: 25px;
+    text-align: center;
+}
+
+.productBtn {
+    background: rgba(217, 217, 217, 0.05);
+    border: 3px solid #FFFFFF;
+    border-radius: 8px;
+    padding: 20px 35px;
+    width: 272px;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.productBtn + .productBtn {
+    margin-top: 25px;
+}

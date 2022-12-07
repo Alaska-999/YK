@@ -1,0 +1,19 @@
+.header {
+
+    width: 100%;
+    height: 169px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headerLogo {
+    height: 65px;
+    width: 65px;
+}
+
+.navbar {
+    width: 130px;
+    display: flex;
+    justify-content: space-between;
+}

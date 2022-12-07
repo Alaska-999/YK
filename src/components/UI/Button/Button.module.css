@@ -1,0 +1,16 @@
+
+.button {
+    background: rgba(217, 217, 217, 0.05);
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    padding: 15px 35px;
+    font-size: 20px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.button:active,
+.button:focus {
+   color: #daa00c;
+    border: 1px solid #daa00c;
+}

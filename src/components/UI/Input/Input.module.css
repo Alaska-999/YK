@@ -1,0 +1,13 @@
+.input {
+    max-width: 340px;
+    width: 100%;
+    padding: 12px 15px;
+    border-radius: 19px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(0, 0, 0, 0.52);
+    border: 1px solid #FFFFFF;
+}
+

@@ -1,0 +1,32 @@
+.container {
+    margin: 15vh auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 334px;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+
+.logo {
+    width: 190px;
+    height: 184px;
+}
+
+.heading {
+    margin-top: 49px;
+    text-transform: uppercase;
+    font-size: 24px;
+    line-height: 28px;
+    max-width: 241px;
+}
+
+.description {
+    font-size: 15px;
+    line-height: 20px;
+    margin: 34px 0;
+}
+
